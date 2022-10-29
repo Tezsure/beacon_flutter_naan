@@ -27,7 +27,7 @@ class BeaconConnectService{
                 
                 Beacon.WalletClient.create(
                     with: .init(
-                        name: "Altme",
+                        name: "Naan",
                         blockchains: [Tezos.factory, Substrate.factory],
                         connections: [try Transport.P2P.Matrix.connection()]
                     )
