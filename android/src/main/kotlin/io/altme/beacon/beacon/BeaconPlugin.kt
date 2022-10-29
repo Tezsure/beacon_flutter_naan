@@ -260,7 +260,7 @@ class BeaconPlugin : MethodChannel.MethodCallHandler, EventChannel.StreamHandler
 
     private fun startBeacon(result: Result) {
         CoroutineScope(Dispatchers.IO).launch {
-            beaconClient = BeaconWalletClient("Altme") {
+            beaconClient = BeaconWalletClient("Naan") {
                 support(tezos(), substrate())
                 use(p2pMatrix())
 
